@@ -1,4 +1,8 @@
 class PhotosController < ApplicationController
+  def index
+
+  end
+	
   def new
     @photos = Photo.find(:all)
     render :layout => "photo"

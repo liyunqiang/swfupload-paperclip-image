@@ -1,4 +1,3 @@
-<% session_key_name = ActionController::Base.session_options[:key] %>
 <% form_for :photo, @photo, :url => photos_path, :html => { :multipart => true } do |f| -%>
   <div id="swfupload_degraded_container">
     <%= f.file_field :Filedata %>
